@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+/* 부드러운 스크롤 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+
+/* Section */
+/* 여기서 배경 올리면 안됨 - props로 하기 */
+section {
+  background-color: #334;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section h1 {
+  color: #fff;
+  margin-bottom: 1em;
+}

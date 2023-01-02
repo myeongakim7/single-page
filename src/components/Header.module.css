@@ -1,0 +1,33 @@
+/* header.module.css < 헤더 뒤에 모듈 붙이면 헤더 컴포넌트 전용 css가 됨, 다른 컴포넌트와 동기화 안됨 */
+
+.textPrimary {
+  color: #fff;
+}
+
+header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+a {
+  color: #fff;
+  font-size: small;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
